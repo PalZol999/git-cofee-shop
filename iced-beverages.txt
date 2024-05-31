@@ -1,0 +1,50 @@
+		********************** 		GIT BASIC      *******************
+
+Git Basic:
+
+git init: 	create a new .git repo and trak it
+git add: 	Move modified files into the staging area
+git status	Show the inofs about your repo
+git commit  	Create the snpashot and commit to .git
+git log		Shows the comment/who history of your repo
+git diff	Show the different changes done to the file
+
+Git Branches:
+
+git branch 	List, create or delete branches
+git checkout 	Switch between branches
+git merge	Bring changes form 1 branch into another
+
+Remote Repo:
+
+git clone 	You know
+git push	Send update from your local copy of the repo to associate shared repo
+git pull	Retrives and integrates changes form other repo in to my local repo
+git fesh	Retrives but does not integrates changes from other repo
+
+Undoig Changes:
+
+git revert	Create a new commit that undoes a previous commit
+gir reset	Remoe files from the staging area
+
+"
+Git rebase is a powerful Git command used to integrate changes from one branch into another. 
+It is a way of combining multiple commits into a single, linear sequence of commits. 
+Unlike git merge, which creates a new merge commit, git rebase rewrites the commit history."
+
+How to switch branch:
+git branch feature
+git status        
+	On branch main
+	nothing to commit, working tree clean
+git branch -a
+	* main
+git checkout feature 
+	Switched to branch 'feature'
+git branch -a       
+	* feature
+  	main
+(you can create and checkout to the created branch by: git checkout -b nameOfTheFile)
+
+
+
