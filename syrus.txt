@@ -1,0 +1,4 @@
+git branch -a       
+	* feature
+  	main
+(you can create and checkout to the created branch by: git checkout -b nameOfTheFile)
